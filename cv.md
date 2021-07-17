@@ -2,8 +2,8 @@ Aliaksei Lapionak
 ============
 
 -------------------                 --------------------------
-**E-mail**: [aleks.lapenok@gmail.com](aleks.lapenok@gmail.com)
-**Discord**: Alexey Lapenok(@alexeylapenok)
+**E-mail**: [aleks.lapenok@gmail.com](aleks.lapenok@gmail.com)<br>
+**Discord**: Alexey Lapenok(@alexeylapenok)<br>
 **Phone**: +375(33)329-73-17 Minsk Belarus                          
 -------------------                 --------------------------
 
@@ -40,24 +40,24 @@ addTask = task => {
 Experience
 ----------
 
-### Бесплатные курсы SENLA React Developer :
-- изучение основ HTML и CSS;
-- изучение языка программирования JavaScript;
-- знакомство с библиотекой React.
+### Free SENLA React Developer Courses :
+- learning the basics of HTML and CSS;
+- learning the JavaScript programming language;
+- learning the React library.
 
 #### Projects:
-**Save life** ([Netlify](https://save-life-by-lapenok.netlify.app)) - первый лендинг проект на html and css
-_**ToDoApp**_ ([Netlify](https://todoapplap.netlify.app)) - список задач на js
-_**Film Gallery**_ ([Netlify](https://lapfilmgallery.netlify.app)) - галерея фильмов на js
-_**ToDoReact**_ ([Netlify](https://todoreactlapp.netlify.app)) - список задач на React
-_**Film Gallery React**_ ([Netlify](https://lapfilmgalleryreact.netlify.app)) - галерея фильмов на React
+**Save life** ([Netlify](https://save-life-by-lapenok.netlify.app)) - first landing page in html and css<br>
+_**ToDoApp**_ ([Netlify](https://todoapplap.netlify.app)) - js task list<br>
+_**Film Gallery**_ ([Netlify](https://lapfilmgallery.netlify.app)) - js movie gallery<br>
+_**ToDoReact**_ ([Netlify](https://todoreactlapp.netlify.app)) - React task list<br>
+_**Film Gallery React**_ ([Netlify](https://lapfilmgalleryreact.netlify.app)) - React movie gallery
 
-### Тренажёры HTMLAcademy
-_**Ачивки**_([HtmlAcademy](https://htmlacademy.ru/profile/id1693469/))
+### Interactive courses HTMLAcademy
+_**Аchievements**_([HtmlAcademy](https://htmlacademy.ru/profile/id1693469/))
 
-### Простые проекты на React
-_**IPAddres**_ ([Netlify](https://ipaddress-react.netlify.app))([GitHub](https://github.com/AlexeyLapenok/ipaddress)) - узнать ipaddres на React
-_**SimpleToDo**_ ([Netlify](https://todosimple-react.netlify.app))([GitHub](https://github.com/AlexeyLapenok/todolist)) - простой список задач на React
+### Simple React Projects
+_**IPAddres**_ ([Netlify](https://ipaddress-react.netlify.app))([GitHub](https://github.com/AlexeyLapenok/ipaddress)) - find out ip address on React<br>
+_**SimpleToDo**_ ([Netlify](https://todosimple-react.netlify.app))([GitHub](https://github.com/AlexeyLapenok/todolist)) - a simple list of tasks in React
 
 Education
 ---------
