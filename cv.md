@@ -2,8 +2,8 @@ Aliaksei Lapionak
 ============
 
 -------------------                 --------------------------
-**E-mail**: [aleks.lapenok@gmail.com](aleks.lapenok@gmail.com)
-**Discord**: Alexey Lapenok(@alexeylapenok)
+**E-mail**: [aleks.lapenok@gmail.com](aleks.lapenok@gmail.com)<br>
+**Discord**: Alexey Lapenok(@alexeylapenok)<br>
 **Phone**: +375(33)329-73-17 Minsk Belarus                          
 -------------------                 --------------------------
 
