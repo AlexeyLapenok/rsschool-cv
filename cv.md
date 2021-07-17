@@ -1,15 +1,17 @@
 Aliaksei Lapionak
 ============
 
--------------------                 --------------------------
+------------------- --------------------------
 **E-mail**: [aleks.lapenok@gmail.com](aleks.lapenok@gmail.com)<br>
 **Discord**: Alexey Lapenok(@alexeylapenok)<br>
 **Phone**: +375(33)329-73-17 Minsk Belarus                          
--------------------                 --------------------------
+------------------- --------------------------
 
 About 
 ----------
-
+I am a front-end developer. My goal is to do something useful for others, 
+so that work brought pleasure and it was interesting to develop and strive for something. 
+I am diligent, independent, I learn quickly.
 
 Skills
 --------------------
