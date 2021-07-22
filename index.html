@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="aside">
+            <div class="aside__logo">
+                <img class="aside__img" src="img/photo1.JPG" alt="Alexey's photo">
+            </div>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li class="skills__item html"> HTML</li>
+                    <li class="skills__item css"> CSS</li>
+                    <li class="skills__item git"> GIT</li>
+                    <li class="skills__item js"> JavaScript</li>
+                    <li class="skills__item react"> React Js </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Contacts</h2>
+                <ul class="contact">
+                    <li class="contact__item">E-mail: <a class="contact__link" href="aleks.lapenok@gmail.com">
+                            aleks.lapenok@gmail.com</a>
+                    <li class="contact__item">Discord: <p>Alexey Lapenok(@alexeylapenok)
+                        </p>
+                    </li>
+                    <li class="contact__item">Phone: <a class="contact__link"
+                            href="+375(33)329-73-17">+375(33)329-73-17</a> Minsk Belarus
+                    </li>
+                </ul>
+            </section>
+        </header>
+
+        <main class="main">
+            <h1 class="main__title">Aliaksei Lapionak</h1>
+            <p class="main__subtitle">Front-end developer</p>
+            <section>
+                <h2>About</h2>
+                <p>
+                    I am a front-end developer. My goal is to do something useful for others,
+                    so that work brought pleasure and<br> it was interesting to develop and strive for something.
+                    I am diligent, independent, I learn quickly.
+            </section>
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <p>2016 - 2021<br>
+                            Lawyer, jurisprudence; The Academy of the Ministry of Internal Affairs
+                            RB (Minsk)</p>
+                    </li>
+                    <li>
+                        <p>November 2020 - July 2021<br>
+                            React Developer; Free Senla course</p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>My code</h2>
+                <p>My code for adding a task to a task list in React:</p>
+                <pre><code>
+                addTask = task => {
+                    this.setState(state => {
+                      let { tasks } = state;
+                      tasks.unshift({
+                        id: tasks.length || 0,
+                        title: task,
+                        done: false,
+                        isImportant: false
+                      })
+                      return state;
+                    });
+                  };
+             </code>
+          </pre>
+            </section>
+            <section>
+                <h2>Experience</h2>
+                <h3>Free SENLA React Developer Courses :</h3>
+                <ul>
+                    <li>learning the basics of HTML and CSS;</li>
+                    <li>learning the JavaScript programming language;</li>
+                    <li>learning the React library.</li>
+                </ul>
+                <article>
+                    <h3>Projects:</h3>
+                    <ul>
+                        <li><a href="https://save-life-by-lapenok.netlify.app">Save life</a> - first landing page in
+                            html
+                            and
+                            css
+                        </li>
+                        <li><a href="https://todoapplap.netlify.app">ToDoApp</a> - js task list</li>
+                        <li><a href="https://lapfilmgallery.netlify.app">Film Gallery</a> - js movie gallery</li>
+                        <li><a href="https://todoreactlapp.netlify.app">ToDoReact</a> - React task list</li>
+                        <li><a href="https://lapfilmgalleryreact.netlify.app">Film Gallery React</a>-React movie gallery
+                        </li>
+                    </ul>
+                </article>
+                <h3>Interactive courses HTMLAcademy:</h3>
+                <a href="https://htmlacademy.ru/profile/id1693469">Аchievements</a>
+
+                <h3>Simple React Projects:</h3>
+                <ul>
+                    <li><a href="https://ipaddress-react.netlify.app">IPAddres</a> - find out ip address on React
+                    </li>
+                    <li><a href="https://todosimple-react.netlify.app">SimpleToDo</a> - a simple list of tasks in React
+                    </li>
+                </ul>
+            </section>
+            <h2>ENGLISH B1</h2>
+        </main>
+    </div>
+
+    <footer>
+        <h4>4</h4>
+        <h5>5</h5>
+        <a href="https://github.com/AlexeyLapenok"><img src="./img/mygithub.svg" alt="GitHub"></a>
+        <p> 2021</p>
+        <a href="https://rs.school/js/"><img src="img/logoRSS.svg" alt="RSschool logo"></a>
+    </footer>
+
+</body>
+
+</html>

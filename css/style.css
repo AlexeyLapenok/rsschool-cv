@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body {
+	background-color: hsl(0, 0%, 59%);
+}
+.wrapper {
+	background-color: #fff;
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.aside {
+	width: 30%;
+	background-color: #0c0c0c;
+	color: white;
+}
+.aside__logo {
+	margin-bottom: 20px;
+}
+.aside__img {
+	width: 100%;
+	
+}
+.aside h2 {
+	padding-left:10px;
+	
+}
+ul li {
+	padding: 5px 0px;
+	margin-left: 30px;
+}
+p {
+	line-height: 1.7;
+	margin: 0;
+}
+h3 {
+	color: deepskyblue;
+}
+.skills__item {
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: left ;
+	margin-left: 0;
+	padding-left: 30px;
+}
+.contact {
+	padding-inline-start:0;
+
+}
+.contact__item {
+	list-style-type: none;
+	color: #2e98d6;
+	
+}
+.contact__item p {
+	color: #fff;
+	margin: 0;
+	
+} 
+.contact__link {
+	color: white;
+}
+.contact__link:hover {
+	color: #acafb1;
+}
+a {
+	color: black;
+}
+a:hover {
+	color: #acafb1;
+}
+.html {
+	background-image: url(../img/html.svg);
+}
+.css {
+	background-image: url(../img/css.svg);
+}
+.git {
+	background-image: url(../img/git.svg);
+}
+.js { 
+	background-image: url(../img/js.svg);
+}
+.react {
+	background-image: url(../img/react.svg);
+}
+main {
+	width: 70%;
+	padding-left: 20px
+	
+}
+main ul {
+	padding-inline-start: 0;
+}
+.main__title {
+	font-size: 60px;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.main__subtitle {
+	font-size: 21px;
+	margin-bottom: 70px;
+	margin-top: 0;
+}
+h2 {
+	font-size: 21px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #2e98d6;
+}
+footer {
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 0;
+}
+footer img {
+	height:40px;
+}
+h4, h5 {
+	display: none;
+}
+
