@@ -3,7 +3,7 @@
 body {
 	background-color: hsl(0, 0%, 59%);
 }
-.wrapper {
+.container {
 	background-color: #fff;
 	width: 1000px;
 	margin: 0 auto;
