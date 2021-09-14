@@ -12,123 +12,144 @@
 
 <body>
     <div class="container">
-
-        <header class="aside">
-            <div class="aside__logo">
-                <img class="aside__img" src="img/photo1.JPG" alt="Alexey's photo">
-            </div>
-            <section>
-                <h2>Skills</h2>
-                <ul>
-                    <li class="skills__item html"> HTML</li>
-                    <li class="skills__item css"> CSS</li>
-                    <li class="skills__item git"> GIT</li>
-                    <li class="skills__item js"> JavaScript</li>
-                    <li class="skills__item react"> React Js </li>
+        <header>
+            <nav class="header">
+                <div class="menu__burger">
+                    <span></span>
+                </div>
+                <p class="name"><strong>Aliaksei Lapionak</strong> / <i>Front-end developer</i></p>
+                <ul class="header-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#code">My code</a></li>
+                    <li><a href="#exp">Experience</a></li>
+                    <li><a href="#eng">ENGLISH</a></li>
                 </ul>
-            </section>
-            <section>
-                <h2>Contacts</h2>
-                <ul class="contact">
-                    <li class="contact__item">E-mail: <a class="contact__link" href="aleks.lapenok@gmail.com">
-                            aleks.lapenok@gmail.com</a>
-                    <li class="contact__item">Discord: <p>Alexey Lapenok(@alexeylapenok)
-                        </p>
-                    </li>
-                    <li class="contact__item">Phone: <a class="contact__link"
-                            href="+375(33)329-73-17">+375(33)329-73-17</a> Minsk Belarus
-                    </li>
-                </ul>
-            </section>
+            </nav>
         </header>
-
-        <main class="main">
-            <h1 class="main__title">Aliaksei Lapionak</h1>
-            <p class="main__subtitle">Front-end developer</p>
-            <section>
-                <h2>About</h2>
-                <p>
-                    I am a front-end developer. My goal is to do something useful for others,
-                    so that work brought pleasure and<br> it was interesting to develop and strive for something.
-                    I am diligent, independent, I learn quickly.
-            </section>
-            <section>
-                <h2>Education</h2>
-                <ul>
-                    <li>
-                        <p>2016 - 2021<br>
-                            Lawyer, jurisprudence; The Academy of the Ministry of Internal Affairs
-                            RB (Minsk)</p>
-                    </li>
-                    <li>
-                        <p>November 2020 - July 2021<br>
-                            React Developer; Free Senla course</p>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2>My code</h2>
-                <p>My code for adding a task to a task list in React:</p>
-                <pre><code>
-                addTask = task => {
-                    this.setState(state => {
-                      let { tasks } = state;
-                      tasks.unshift({
-                        id: tasks.length || 0,
-                        title: task,
-                        done: false,
-                        isImportant: false
-                      })
-                      return state;
-                    });
-                  };
-             </code>
-          </pre>
-            </section>
-            <section>
-                <h2>Experience</h2>
-                <h3>Free SENLA React Developer Courses :</h3>
-                <ul>
-                    <li>learning the basics of HTML and CSS;</li>
-                    <li>learning the JavaScript programming language;</li>
-                    <li>learning the React library.</li>
-                </ul>
-                <article>
-                    <h3>Projects:</h3>
+        <div class="wrapper">
+            <aside class="aside">
+                <div class="aside__logo">
+                    <img class="aside__img" src="img/photo1.JPG" alt="Alexey's photo">
+                </div>
+                <section id="skills">
+                    <h2>Skills</h2>
                     <ul>
-                        <li><a href="https://save-life-by-lapenok.netlify.app">Save life</a> - first landing page in
-                            html
-                            and
-                            css
+                        <li class="skills__item html"> HTML</li>
+                        <li class="skills__item css"> CSS</li>
+                        <li class="skills__item git"> GIT</li>
+                        <li class="skills__item js"> JavaScript</li>
+                        <li class="skills__item react"> React Js </li>
+                    </ul>
+                </section>
+                <section id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="contact">
+                        <li class="contact__item">E-mail: <a class="contact__link" href="aleks.lapenok@gmail.com">
+                                aleks.lapenok@gmail.com</a>
+                        <li class="contact__item">Discord: <p>Alexey Lapenok(@alexeylapenok)
+                            </p>
                         </li>
-                        <li><a href="https://todoapplap.netlify.app">ToDoApp</a> - js task list</li>
-                        <li><a href="https://lapfilmgallery.netlify.app">Film Gallery</a> - js movie gallery</li>
-                        <li><a href="https://todoreactlapp.netlify.app">ToDoReact</a> - React task list</li>
-                        <li><a href="https://lapfilmgalleryreact.netlify.app">Film Gallery React</a>-React movie gallery
+                        <li class="contact__item">Phone: <a class="contact__link"
+                                href="+375(33)329-73-17">+375(33)329-73-17</a> Minsk Belarus
                         </li>
                     </ul>
-                </article>
-                <h3>Interactive courses HTMLAcademy:</h3>
-                <a href="https://htmlacademy.ru/profile/id1693469">Аchievements</a>
+                </section>
+            </aside>
 
-                <h3>Simple React Projects:</h3>
-                <ul>
-                    <li><a href="https://ipaddress-react.netlify.app">IPAddres</a> - find out ip address on React
-                    </li>
-                    <li><a href="https://todosimple-react.netlify.app">SimpleToDo</a> - a simple list of tasks in React
-                    </li>
-                </ul>
-            </section>
-            <h2>ENGLISH B1</h2>
-        </main>
+            <main class="main">
+                <h1 class="main__title">Aliaksei Lapionak</h1>
+                <p class="main__subtitle">Front-end developer</p>
+                <section id="about">
+                    <h2>About</h2>
+                    <p>
+                        I am a front-end developer. My goal is to do something useful for others,
+                        so that work brought pleasure and<br> it was interesting to develop and strive for something.
+                        I am diligent, independent, I learn quickly.
+                </section>
+                <section id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
+                            <p>2016 - 2021<br>
+                                Lawyer, jurisprudence; The Academy of the Ministry of Internal Affairs
+                                RB (Minsk)</p>
+                        </li>
+                        <li>
+                            <p>November 2020 - July 2021<br>
+                                React Developer; Free Senla course</p>
+                        </li>
+                    </ul>
+                </section>
+                <section id="code">
+                    <h2>My code</h2>
+                    <p>My code for adding a task to a task list in React:</p>
+                    <div id="hler_4689">
+                        <blockquote>
+                            <code><font size="2" face="Courier New"><font color="black">addTask = task =&gt; {</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#006699"><b>this</b></font><font color="black">.setState(state =&gt; {</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">let { tasks } = state;</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">tasks.unshift({</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">id: tasks.length || 0,</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">title: task,</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">done: </font><font color="#006699"><b>false</b></font><font color="black">,</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">isImportant: </font><font color="#006699"><b>false</b></font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">})</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#006699"><b>return</b></font> <font color="black">state;</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">});</font><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="black">};</font><br /></font></code>
+                        </blockquote>
+                    </div>
+                </section>
+                <section id="exp">
+                    <h2>Experience</h2>
+                    <h3>Free SENLA React Developer Courses :</h3>
+                    <ul>
+                        <li>learning the basics of HTML and CSS;</li>
+                        <li>learning the JavaScript programming language;</li>
+                        <li>learning the React library.</li>
+                    </ul>
+                    <h3>Interactive courses HTMLAcademy:</h3>
+                    <a href="https://htmlacademy.ru/profile/id1693469">Аchievements</a>
+                    <h3>JavaScript/Front-end Pre-School</h3>
+                    <a href="https://app.rs.school/certificate/4gjxge0a">Certificate</a>
+                    <article>
+                        <h3>Projects:</h3>
+                        <ul class="projects">
+                            <li>Save life -
+                                first landing page in
+                                html and css<a href="https://save-life-by-lapenok.netlify.app" target="_blank"><img
+                                        src="./img/sl.png" width="300"></a>
+                            </li>
+                            <li>ToDoApp - js task list<a href="https://todoapplap.netlify.app" target="_blank"><img
+                                        src="./img/tdjs.png" width="300"></a>
+                            </li>
+                            <li>JS Clock<a
+                                    href="https://rolling-scopes-school.github.io/alexeylapenok-JSFEPRESCHOOL/js-clock/"
+                                    target="_blank"><img src="./img/clock.png" width="300"></a></li>
+                            <li>Film
+                                Gallery React<a href="https://lapfilmgalleryreact.netlify.app" target="_blank"><img
+                                        src="./img/rg.png" width="300"></a>
+                            </li>
+                            <li>Museum<a
+                                    href="https://rolling-scopes-school.github.io/alexeylapenok-JSFEPRESCHOOL/museum/"
+                                    target="_blank"><img src="./img/museum.png" width="300"></a></li>
+
+                        </ul>
+                    </article>
+
+                    <h3>Simple React Projects:</h3>
+                    <ul class="projects">
+                        <li>IPAddres - find out ip address on React<a href="https://ipaddress-react.netlify.app"
+                                target="_blank"><img src="./img/ip.png" height="100"></a>
+                        </li>
+                        <li>SimpleToDo - a simple list of tasks in React<a href="https://todosimple-react.netlify.app"
+                                target="_blank"><img src="./img/std.png" height="100"></a>
+                        </li>
+                    </ul>
+                </section>
+                <h2 id="eng">ENGLISH B1</h2>
+            </main>
+        </div>
     </div>
 
     <footer>
         <h4>4</h4>
         <h5>5</h5>
-        <a href="https://github.com/AlexeyLapenok"><img src="./img/mygithub.svg" alt="GitHub"></a>
+        <a href="https://github.com/AlexeyLapenok" target="_blank"><img src="./img/mygithub.svg" alt="GitHub"></a>
         <p> 2021</p>
-        <a href="https://rs.school/js/"><img src="img/logoRSS.svg" alt="RSschool logo"></a>
+        <a href="https://rs.school/js/" target="_blank"><img src="img/logoRSS.svg" alt="RSschool logo"></a>
     </footer>
 
 </body>
