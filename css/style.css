@@ -40,6 +40,9 @@ body {
 	
     margin: 0 auto;
 }
+.mobile-title{
+	display: none;
+}
 .header-nav {
 	display: flex;
     justify-content: flex-end;
@@ -64,6 +67,7 @@ body {
 	color: white;
 }
 .aside__img {
+	display: block;
 	width: 100%;
 	padding-top: 5px;
 	position: relative;
@@ -209,6 +213,9 @@ h4 {
 	width: 300px;
 	text-transform: uppercase;
 }
+.active {
+	display: none;
+}
 .about-title{
 	text-transform: uppercase;
 	font-size: large;
@@ -223,7 +230,9 @@ h4 {
 	max-width: 1000px;
 	display: flex;
     flex-wrap: wrap;
-	gap: 0px 15px;}
+	gap: 0px 15px;
+	position: relative;
+}
 .projects li {
 	display: flex;
 	flex-direction: column;
@@ -246,6 +255,10 @@ h4 {
 	box-shadow: 0px 7px 36px 14px rgb(0 0 0 / 80%);
 	transition: .5s;
 }
+.projects li:hover .active {
+	display: block;
+	position: absolute;
+}
 footer {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -259,23 +272,42 @@ footer img {
 h5 {
 	display: none;
 }
-@media screen and (max-width: 1000px) {
-	
+.none {
+	display: none;
 }
+
 @media screen and (max-width: 768px) {
 	.wrapper {
 		flex-wrap: wrap;
 	}
 	#contacts {
-		
 		margin-right: -9%;
 		
 	}
 	.wrapper-about {
 		flex-wrap: wrap;
+		margin-top: 51px;
 	}
 	.header-nav {
-		display: none;
+		display: block;
+		height: 351px;
+		transition: all 0.5s ease-out;
+	}
+	.header {
+		position: fixed;
+		width: 100%;
+		z-index: 5;
+		top: -351px;
+		transition: all 0.5s ease-out;
+		box-shadow: 0px 7px 36px 14px rgb(0 0 0 / 80%);
+
+	}
+	.mobile-title {
+		display: block;
+		position: absolute;
+    	bottom: 16px;
+    	left: 30%;
+		font-size: 13px;
 	}
 	.menu__burger {
         display: block;
@@ -317,13 +349,35 @@ h5 {
 		left: 12.5%;
 		top: 25%;
 	}
+	.menu__burger.active::before {
+		transform: rotate(45deg);
+		top: 9px;
+	}
+	.menu__burger.active::after {
+		transform: rotate(-45deg);
+		bottom: 9px;
+	}
+	.menu__burger.active span {
+		transform:scale(0);
+	}
+	.select{
+		display: block;
+		top: 0;
+		transition: all 0.5s ease-out;	
+	}
+	.header ul li{
+		margin-left: 35%;
+    	padding: 16px;
+	}
 	.aside {
 		max-width: 100%;
 	}
+
 	main {
 		max-width: 100%;
 	}
 	.aside__img {
+		margin-top: 50px;
 		width: 50%;
 		display: block;
 		margin: 0 auto;
