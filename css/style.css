@@ -372,7 +372,6 @@ h5 {
 	.aside {
 		max-width: 100%;
 	}
-
 	main {
 		max-width: 100%;
 	}
@@ -400,6 +399,9 @@ h5 {
 	}
 	h2,h3 {
 		text-align: center;
+	}
+	.projects {
+		margin-left: 7%;
 	}
 	blockquote {
 		
