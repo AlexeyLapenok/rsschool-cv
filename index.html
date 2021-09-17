@@ -10,7 +10,7 @@
     <title>CV</title>
 </head>
 
-<body>
+<body class="body">
     <div class="container">
         <header>
             <nav class="header">
@@ -21,7 +21,7 @@
                         <li><a href="#education">Education</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#myprojects">My projects</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#cont">Contacts</a></li>
                         <li><a href="https://github.com/AlexeyLapenok">My GitHub</a></li>
                     </ul>
                     <div class="menu__burger">
@@ -36,12 +36,12 @@
             <main>
                 <div class="wrapper-about">
                     <aside class="aside">
-                        <div class="aside__logo">
+                        <div class="aside__logo" id="about">
                             <img class="aside__img" src="img/photo1.JPG" alt="Alexey's photo">
                         </div>
                     </aside>
                     <div class="about-container">
-                        <section id="about">
+                        <section id="cont">
                             <h2>About me ―――</h2>
                             <p class="about-title">I'm ALIAKSEI LAPIONAK front-end developer.</p>
                             <p class="about-subtitle">My goal is to do something useful for others,
@@ -69,11 +69,11 @@
                                 </li>
                             </ul>
                         </article>
-                        <h2 id="eng">ENGLISH B1</h2>
+                        <h2 id="exp">ENGLISH B1</h2>
 
                     </div>
                 </div>
-                <section id="exp">
+                <section>
                     <h2>Experience & Education & Skills ―――</h2>
                     <div class="exp-wrapper">
                         <h3>Experience</h3>
@@ -95,12 +95,12 @@
                             <hr>
                             <div class="exp-wrapper">
                                 <h4>JavaScript/Front-end Pre-School</h4>
-                                <a href="https://app.rs.school/certificate/4gjxge0a">Certificate</a>
+                                <a href="https://app.rs.school/certificate/4gjxge0a" id="education">Certificate</a>
                             </div>
                         </div>
                     </div>
                     <hr>
-                    <article id="education">
+                    <article>
                         <div class="exp-wrapper">
                             <h3>Education</h3>
                             <div>
@@ -117,7 +117,7 @@
                                 <hr>
                                 <div class="exp-wrapper">
                                     <h4>React Developer</h4>
-                                    <div>
+                                    <div id="skills">
                                         <div class="exp-title">Senla course</div>
                                         <div class="exp-subtitle">November 2020 - July 2021</div>
                                     </div>
@@ -128,7 +128,7 @@
                     </article>
 
                     <hr>
-                    <article id="skills">
+                    <article>
                         <div class="exp-wrapper">
                             <h3>Skills</h3>
                             <ul>
@@ -142,7 +142,7 @@
                             <div></div>
                             <div></div>
                             <div></div>
-                            <div></div>
+                            <div id="myprojects"></div>
                             <div></div>
 
                         </div>
@@ -150,7 +150,7 @@
                     <hr>
                 </section>
 
-                <section id="myprojects">
+                <section>
                     <h2>My Projects ―――</h2>
                     <ul class="projects">
                         <li><a href="https://save-life-by-lapenok.netlify.app" target="_blank"><img src="./img/sl.png"
@@ -196,13 +196,27 @@
 
                 <section id="code">
                     <h2>My code ―――</h2>
-                    <div id="hler_764227">
-                        <blockquote>
-                            <code><font size="2" face="Courier New"><font color="#006699"><b>function</b></font> <font color="#fff">highAndLow(numbers){</font><br />&nbsp;&nbsp;<font color="#fff">const numbersArray = numbers.split(</font><font color="blue">" "</font><font color="#fff">).sort(</font><font color="#006699"><b>function</b></font><font color="#fff">(a, b) {</font><br />&nbsp;&nbsp;<font color="#006699"><b>return</b></font> <font color="#fff">a - b;})</font><br />&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;<font color="#006699"><b>return</b></font> <font color="#fff">[numbersArray[numbersArray.length- 1], numbersArray[0]].join(</font><font color="blue">" "</font><font color="#fff">)</font><br /><font color="black">}</font><br /></font></code>
-                        </blockquote>
+                    <div id="hler_881136" class="slgh">
+                        <ol class="lines no-wrap">
+                            <li class="alt1"><code class="keyword">function</code> <code
+                                    class="plain">highAndLow(numbers){</code></li>
+                            <li class="alt2">&nbsp;&nbsp;<code
+                                    class="plain">const numbersArray = numbers.split(</code><code
+                                    class="string">" "</code><code class="plain">).sort(</code><code
+                                    class="keyword">function</code><code class="plain">(a, b) {</code></li>
+                            <li class="alt1">&nbsp;&nbsp;<code class="keyword">return</code> <code
+                                    class="plain">a - b;})</code>
+                            </li>
+                            <li class="alt2">&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                            <li class="alt1">&nbsp;&nbsp;<code class="keyword">return</code> <code
+                                    class="plain">[numbersArray[numbersArray.length- 1], numbersArray[0]].join(</code><code
+                                    class="string">" "</code><code class="plain">)</code></li>
+                            <li class="alt2"><code class="plain">}</code></li>
+                        </ol>
                     </div>
                 </section>
             </main>
+
         </div>
     </div>
 
