@@ -1,13 +1,29 @@
 const burger = document.querySelector('.menu__burger');
 const header = document.querySelector('.header');
 const headerNav = document.querySelector('.header-nav');
+const body = document.querySelector('.body');
+
 
 function toogleMenu() {
     header.classList.toggle('select');
     headerNav.classList.toggle('select');
     burger.classList.toggle('active');
+    body.classList.toggle('lock');
 };
+function removeMenu() {
+    header.classList.remove('select');
+    headerNav.classList.remove('select');
+    burger.classList.remove('active');
+    body.classList.remove('lock');
+};
+
 burger.addEventListener('click', () => toogleMenu());
+headerNav.addEventListener('click', () => removeMenu());
+
+
+
+
+
 console.log('Ваша оценка - 150 баллов');
 console.log('Отзыв по пунктам ТЗ:');
 console.log('Не выполненные/не засчитанные пункты:');

@@ -265,6 +265,8 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	padding: 30px 0;
+	align-items: center;
+    color: black;
 }
 footer img {
 	height:40px;
@@ -275,7 +277,9 @@ h5 {
 .none {
 	display: none;
 }
-
+.lock {
+	overflow: hidden;
+}
 
 .slgh,
                 .slgh code,
